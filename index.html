@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARKAF EDGE. — Strategy. Creativity. Impact.</title>
+<meta name="description" content="ARKAF Edge is a digital agency partnering with visionary brands to design high-impact digital experiences, strategic identities, and scalable growth engines.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='28' fill='%2303df87'/><text x='50' y='72' font-size='62' font-family='Arial' font-weight='bold' text-anchor='middle' fill='%23021008'>A</text></svg>">
+</head>
+<body>
+
+<div class="cursor" id="cursor"><span class="cursor-dot"></span></div>
+
+<!-- ================= HEADER ================= -->
+<header class="site-header" id="siteHeader">
+  <a class="brand" href="#hero" aria-label="ARKAF Edge home">
+    <span class="brand-mark">A</span>
+    <span class="brand-word">ARKAF<span class="brand-word-accent">EDGE.</span></span>
+  </a>
+
+  <div class="header-right">
+    <div class="engine-pill"><span class="spark">&#10022;</span> LENIS BUTTERY SMOOTH ENGINE</div>
+    <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle color theme">
+      <svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round">
+        <circle cx="12" cy="12" r="4.2"></circle>
+        <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"></path>
+      </svg>
+    </button>
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ================= MENU OVERLAY ================= -->
+<div class="menu-overlay" id="menuOverlay" aria-hidden="true">
+  <div class="menu-inner">
+    <div class="menu-col menu-nav">
+      <span class="mono-label">MENU — NAVIGATION</span>
+      <nav>
+        <a href="#hero" data-menu-link><i>01</i>Home</a>
+        <a href="#about" data-menu-link><i>02</i>About</a>
+        <a href="#services" data-menu-link><i>03</i>Services</a>
+        <a href="#work" data-menu-link><i>04</i>Work</a>
+        <a href="#insights" data-menu-link><i>05</i>Insights</a>
+        <a href="#contact" data-menu-link><i>06</i>Contact</a>
+      </nav>
+    </div>
+    <div class="menu-col menu-meta">
+      <div>
+        <span class="mono-label">GET IN TOUCH</span>
+        <a class="menu-mail" href="mailto:hello@arkafedge.com">hello@arkafedge.com</a>
+        <a class="menu-mail" href="tel:+2348000000000">+234 800 000 0000</a>
+      </div>
+      <div>
+        <span class="mono-label">SOCIAL</span>
+        <div class="menu-socials">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Behance">Behance</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="X">X / Twitter</a>
+        </div>
+      </div>
+      <div>
+        <span class="mono-label">STUDIO</span>
+        <p>14 Horizon Lane,<br>Lagos — Nigeria</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="hero">
+  <canvas class="hero-canvas" id="heroCanvas"></canvas>
+  <div class="hero-glow"></div>
+
+  <div class="container hero-inner">
+    <span class="chip chip-dark reveal" data-reveal><span class="spark">&#10022;</span> ARKAF EDGE — DIGITAL AGENCY</span>
+
+    <h1 class="hero-title">
+      <span class="line"><span class="line-in">STRATEGY <span class="dot">&bull;</span></span></span>
+      <span class="line"><span class="line-in"><em>CREATIVITY</em> <span class="dot">&bull;</span> IMPACT</span></span>
+    </h1>
+
+    <p class="hero-lead reveal" data-reveal>We partner with visionary brands to design high-impact
+      digital experiences, strategic identities, and scalable
+      growth engines.</p>
+
+    <div class="hero-actions reveal" data-reveal>
+      <a href="#services" class="btn btn-solid">EXPLORE SERVICES
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+      </a>
+      <a href="#work" class="btn btn-ghost">VIEW CASE STUDIES
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-foot container">
+    <span class="mono-label">SCROLL DOWN TO REVEAL WHO WE ARE</span>
+    <span class="mono-label">REALTIME 3D SHADER ENGINE</span>
+  </div>
+</section>
+
+<!-- ================= WHO WE ARE ================= -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <span class="chip chip-light reveal" data-reveal>WHO WE ARE</span>
+    <h2 class="section-title center">
+      <span class="line"><span class="line-in">Strategy with purpose.</span></span>
+      <span class="line"><span class="line-in accent">Creativity with impact.</span></span>
+    </h2>
+    <p class="about-copy reveal" data-reveal>ARKAF Edge brings together strategy, creativity, and business
+      thinking to help brands navigate an increasingly competitive world.
+      We believe meaningful growth comes from understanding people,
+      identifying opportunities, and creating ideas that move businesses
+      forward.</p>
+    <a href="#work" class="text-link reveal" data-reveal>MORE ABOUT ARKAF EDGE
+      <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+    </a>
+  </div>
+</section>
+
+<!-- ================= SERVICES ================= -->
+<section class="services-wrap" id="services">
+  <div class="services sticky-panel">
+    <div class="flower-stage">
+      <img src="assets/flower.png" alt="" class="flower" id="flower" aria-hidden="true">
+    </div>
+
+    <div class="container services-grid">
+      <article class="service service-a" data-service="0">
+        <span class="mono-label"><i class="tick"></i>01 — BRAND STRATEGY</span>
+        <h3>BRAND STRATEGY</h3>
+        <p>Building clear brand positioning, identities, and strategies that create lasting differentiation.</p>
+      </article>
+      <article class="service service-b" data-service="1">
+        <span class="mono-label"><i class="tick"></i>02 — MARKETING STRATEGY</span>
+        <h3>MARKETING STRATEGY</h3>
+        <p>Turning business objectives into focused marketing strategies designed to create measurable impact.</p>
+      </article>
+      <article class="service service-c" data-service="2">
+        <span class="mono-label"><i class="tick"></i>03 — CREATIVE &amp; DESIGN</span>
+        <h3>CREATIVE &amp; DESIGN</h3>
+        <p>Creating compelling visual identities, campaigns, digital experiences, and communications.</p>
+      </article>
+      <article class="service service-d" data-service="3">
+        <span class="mono-label"><i class="tick"></i>04 — DIGITAL &amp; CONTENT</span>
+        <h3>DIGITAL &amp; CONTENT</h3>
+        <p>Connecting brands with audiences through digital platforms, content, and meaningful experiences.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PHENOMENON (LIGHT / HORIZONTAL) ================= -->
+<section class="phenomenon-wrap" id="phenomenon">
+  <div class="phenomenon sticky-panel">
+    <div class="phenom-head">
+      <span class="mono-label dark"><i class="dot-green"></i>04. THE ARKAF EDGE — PHENOMENON</span>
+    </div>
+
+    <div class="phenom-track" id="phenomTrack">
+      <article class="phenom-card phenom-copy">
+        <span class="chip chip-accent">04 — THE ARKAF EDGE</span>
+        <h3>DIFFERENT<br>THINKING<br>CREATES<br><em>DIFFERENT<br>OUTCOMES.</em></h3>
+        <p>We look beyond conventional approaches to find the
+          opportunities others overlook. By combining strategic
+          insight, creative thinking, and a deep understanding of
+          people and markets, we help brands discover their
+          edge.</p>
+      </article>
+
+      <article class="phenom-card phenom-img">
+        <span class="card-index">01</span>
+        <img src="assets/gallery-01.jpg" alt="Brutalist concrete architecture">
+      </article>
+      <article class="phenom-card phenom-img">
+        <span class="card-index">02</span>
+        <img src="assets/gallery-02.jpg" alt="Abstract 3D ribbon render">
+      </article>
+      <article class="phenom-card phenom-img">
+        <span class="card-index">03</span>
+        <img src="assets/gallery-03.jpg" alt="Light installation in a gallery">
+      </article>
+      <article class="phenom-card phenom-img">
+        <span class="card-index">04</span>
+        <img src="assets/gallery-04.jpg" alt="Colourful oil bubble macro">
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= APPROACH ================= -->
+<section class="approach-wrap" id="approach">
+  <div class="approach sticky-panel">
+    <canvas class="wave-canvas" id="waveCanvas"></canvas>
+
+    <div class="container approach-head">
+      <span class="mono-label"><i class="dot-green"></i>05. OUR APPROACH — HOW WE WORK</span>
+      <h2 class="section-title">THINK. CREATE. <span class="accent">TRANSFORM.</span></h2>
+    </div>
+
+    <div class="approach-stage container">
+      <div class="approach-words" id="approachWords">
+        <span class="aword is-active" data-step="0">THINK</span>
+        <span class="aword" data-step="1">CREATE</span>
+        <span class="aword" data-step="2">TRANSFORM</span>
+        <p class="approach-caption">Each essential. Each in <span class="pill-mini">sync</span></p>
+      </div>
+
+      <div class="step-card" id="stepCard">
+        <div class="step-preview">
+          <span class="preview-icon">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><circle cx="12" cy="12" r="3.4"/></svg>
+          </span>
+          <span class="preview-title" id="previewTitle">VISUAL PREVIEW 01</span>
+          <span class="preview-sub" id="previewSub">01 — THINK</span>
+        </div>
+        <span class="mono-label accent-label" id="stepLabel"><i class="dot-green"></i>01 — THINK</span>
+        <h4 id="stepTitle">Understand the business, audience, market, and opportunity.</h4>
+        <p id="stepBody">We analyze the business, audience, and market opportunity to define a strategy that creates lasting differentiation and stakeholder alignment.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= IMPACT ================= -->
+<section class="impact" id="impact">
+  <div class="container">
+    <span class="mono-label center-label reveal" data-reveal>07. IMPACT &amp; NUMBERS</span>
+    <h2 class="section-title center reveal" data-reveal>MEASURED BY <span class="accent">RESULTS.</span></h2>
+
+    <div class="stats">
+      <div class="stat reveal" data-reveal>
+        <span class="stat-num" data-count="25" data-suffix="+">0+</span>
+        <span class="stat-label">PROJECTS DELIVERED</span>
+      </div>
+      <div class="stat reveal" data-reveal>
+        <span class="stat-num" data-count="12" data-suffix="+">0+</span>
+        <span class="stat-label">BRANDS TRANSFORMED</span>
+      </div>
+      <div class="stat reveal" data-reveal>
+        <span class="stat-num" data-count="8" data-suffix="">0</span>
+        <span class="stat-label">MARKETS REACHED</span>
+      </div>
+      <div class="stat reveal" data-reveal>
+        <span class="stat-num">&#8734;</span>
+        <span class="stat-label">IDEAS IN MOTION</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FEATURED WORK ================= -->
+<section class="work" id="work">
+  <div class="container">
+    <span class="chip chip-outline reveal" data-reveal>06. FEATURED WORK — SELECTED WORK</span>
+
+    <div class="work-head">
+      <h2 class="section-title">
+        <span class="line"><span class="line-in">IDEAS THAT</span></span>
+        <span class="line"><span class="line-in">MAKE</span></span>
+        <span class="line"><span class="line-in accent">AN IMPACT.</span></span>
+      </h2>
+      <p class="work-lead reveal" data-reveal>A selection of projects where strategic insight and
+        creative execution combined to build competitive
+        edge.</p>
+    </div>
+
+    <div class="case-list">
+      <article class="case-card reveal" data-reveal>
+        <div class="case-media"><img src="assets/gallery-01.jpg" alt="Nexus Vantage case study"><span class="case-year">2026</span></div>
+        <div class="case-body">
+          <span class="mono-label">STRATEGY &nbsp;•&nbsp; BRANDING &nbsp;•&nbsp; DIGITAL</span>
+          <h3>NEXUS VANTAGE</h3>
+          <p>Repositioning a global technology firm with a purpose-driven brand identity and high-impact digital platform.</p>
+          <a href="#" class="text-link">VIEW CASE STUDY
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="case-card reveal" data-reveal>
+        <div class="case-media"><img src="assets/gallery-02.jpg" alt="Aura Lumina case study"><span class="case-year">2025</span></div>
+        <div class="case-body">
+          <span class="mono-label">MARKETING STRATEGY &nbsp;•&nbsp; CREATIVE</span>
+          <h3>AURA LUMINA</h3>
+          <p>Designing a comprehensive go-to-market campaign that expanded reach across 8 international markets.</p>
+          <a href="#" class="text-link">VIEW CASE STUDY
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <article class="case-card reveal" data-reveal>
+        <div class="case-media"><img src="assets/gallery-03.jpg" alt="Vanguard Studio case study"><span class="case-year">2025</span></div>
+        <div class="case-body">
+          <span class="mono-label">DIGITAL &amp; CONTENT &nbsp;•&nbsp; BRAND STRATEGY</span>
+          <h3>VANGUARD STUDIO</h3>
+          <p>Crafting an immersive digital content engine that drove 140% growth in qualified brand engagement.</p>
+          <a href="#" class="text-link">VIEW CASE STUDY
+            <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= INSIGHTS ================= -->
+<section class="insights" id="insights">
+  <div class="container">
+    <span class="chip chip-outline reveal" data-reveal>08. INSIGHTS</span>
+    <h2 class="section-title reveal" data-reveal>IDEAS WORTH <span class="accent">THINKING ABOUT.</span></h2>
+
+    <div class="post-grid">
+      <article class="post-card reveal" data-reveal>
+        <div class="post-top"><span>Brand Strategy</span><span>5 min read</span></div>
+        <h3>The Future of Purpose-Driven Brands</h3>
+        <p>How modern consumers evaluate authenticity and why purpose-led messaging drives long-term customer loyalty.</p>
+        <a href="#" class="text-link">READ ARTICLE
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </article>
+      <article class="post-card reveal" data-reveal>
+        <div class="post-top"><span>Design Thinking</span><span>4 min read</span></div>
+        <h3>Why Strategy Matters More Than Ever</h3>
+        <p>Navigating competitive disruption with clear positioning and agile strategic execution.</p>
+        <a href="#" class="text-link">READ ARTICLE
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </article>
+      <article class="post-card reveal" data-reveal>
+        <div class="post-top"><span>Digital Presence</span><span>6 min read</span></div>
+        <h3>Building Brands for a Changing World</h3>
+        <p>Blending human-centered design with modern digital platforms to create lasting audience connections.</p>
+        <a href="#" class="text-link">READ ARTICLE
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FINAL CTA ================= -->
+<section class="cta" id="contact">
+  <div class="container">
+    <div class="cta-panel">
+      <div class="cta-left">
+        <span class="chip chip-outline reveal" data-reveal><span class="spark">&#10022;</span> 09. FINAL CTA</span>
+        <h2 class="section-title">
+          <span class="line"><span class="line-in">READY TO FIND</span></span>
+          <span class="line"><span class="line-in accent">YOUR EDGE?</span></span>
+        </h2>
+        <p class="cta-copy reveal" data-reveal>Let's explore what's possible when strategy, creativity,
+          and purpose come together.</p>
+        <div class="cta-meta reveal" data-reveal>
+          <a href="mailto:hello@arkafedge.com" class="text-link">HELLO@ARKAFEDGE.COM</a>
+          <span class="mono-label">LAGOS — WORLDWIDE</span>
+        </div>
+      </div>
+
+      <form class="cta-form" id="contactForm" novalidate>
+        <h3>Start a Conversation</h3>
+        <label>
+          <span>NAME</span>
+          <input type="text" name="name" placeholder="Your Name" autocomplete="name">
+        </label>
+        <label>
+          <span>EMAIL</span>
+          <input type="email" name="email" placeholder="name@company.com" autocomplete="email">
+        </label>
+        <label>
+          <span>PROJECT BRIEF</span>
+          <textarea name="brief" rows="4" placeholder="Tell us about your brand goals..."></textarea>
+        </label>
+        <button type="submit" class="btn btn-solid btn-block">SEND MESSAGE
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+        </button>
+        <p class="form-note" id="formNote" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <a class="brand" href="#hero">
+      <span class="brand-mark">A</span>
+      <span class="brand-word">ARKAF<span class="brand-word-accent">EDGE.</span></span>
+    </a>
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#insights">Insights</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#">Instagram</a>
+      <a href="#">Behance</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">X</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span class="mono-label">© 2026 ARKAF EDGE — ALL RIGHTS RESERVED</span>
+    <span class="mono-label">STRATEGY &nbsp;•&nbsp; CREATIVITY &nbsp;•&nbsp; IMPACT</span>
+  </div>
+</footer>
+
+<script src="lib/gsap.min.js"></script>
+<script src="lib/ScrollTrigger.min.js"></script>
+<script src="lib/lenis.min.js"></script>
+<script src="js/vortex.js"></script>
+<script src="js/wave.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
